@@ -1,0 +1,239 @@
+--------------------------------------------------------------------------------
+Codebook for NHGIS data file 'nhgis0138_ds175_2010_county'
+--------------------------------------------------------------------------------
+ 
+Contents
+    - Data Summary
+    - Data Dictionary
+    - Citation and Use
+ 
+Additional documentation on NHGIS data sources is available at: 
+    https://www.nhgis.org/documentation/tabular-data 
+ 
+--------------------------------------------------------------------------------
+Data Summary
+--------------------------------------------------------------------------------
+ 
+Year:             2010
+Geographic level: County (by State)
+Dataset:          2010 American Community Survey: 1-Year Data
+   NHGIS code:    2010_ACS1
+   NHGIS ID:      ds175
+Breakdown(s):     Geographic Subarea:
+                     Total area (00)
+Data type(s):     (E) Estimates
+                  (M) Margins of error
+ 
+Tables:
+ 
+1. Sex by Age
+   Universe:    Total population
+   Source code: B01001
+   NHGIS code:  IG4
+ 
+--------------------------------------------------------------------------------
+Data Dictionary
+--------------------------------------------------------------------------------
+ 
+Context Fields 
+        GISJOIN:     GIS Join Match Code
+        YEAR:        Data File Year
+        NATION:      Nation Name
+        NATIONA:     Nation Code
+        REGIONA:     Region Code
+        DIVISIONA:   Division Code
+        STATE:       State Name
+        STATEA:      State Code
+        COUNTY:      County Name
+        COUNTYA:     County Code
+        COUSUBA:     County Subdivision Code
+        PLACE:       Place Name
+        PLACEA:      Place Code
+        AIANHH:      American Indian Area/Alaska Native Area/Hawaiian Home Land Name
+        AIANHHA:     American Indian Area/Alaska Native Area/Hawaiian Home Land Code
+        ANRCA:       Alaska Native Regional Corporation Code
+        CBSA:        Metropolitan Statistical Area/Micropolitan Statistical Area Name
+        CBSAA:       Metropolitan Statistical Area/Micropolitan Statistical Area Code
+        CSA:         Combined Statistical Area Name
+        CSAA:        Combined Statistical Area Code
+        METDIV:      Metropolitan Division Name
+        METDIVA:     Metropolitan Division Code
+        NECTA:       New England City and Town Area Name
+        NECTAA:      New England City and Town Area Code
+        CNECTA:      Combined New England City and Town Area Name
+        CNECTAA:     Combined New England City and Town Area Code
+        NECTADIV:    NECTA Division Name
+        NECTADIVA:   NECTA Division Code
+        UA:          Urban Area Name
+        UAA:         Urban Area Code
+        CDCURRA:     Congressional District (111th Congress) Code
+        SDELM:       School District (Elementary)/Remainder Name
+        SDELMA:      School District (Elementary)/Remainder Code
+        SDSEC:       School District (Secondary)/Remainder Name
+        SDSECA:      School District (Secondary)/Remainder Code
+        SDUNI:       School District (Unified)/Remainder Name
+        SDUNIA:      School District (Unified)/Remainder Code
+        PUMA5A:      Public Use Microdata Sample Area (PUMA) Code
+ 
+Breakdown/Data Type 1 (E):
+    Geographic Subarea: Total area (00)
+    Estimates
+ 
+        NAME_E:      Area Name
+ 
+    Table 1:     Sex by Age
+    Universe:    Total population
+    Source code: B01001
+    NHGIS code:  IG4
+        IG4E001:     Total
+        IG4E002:     Male
+        IG4E003:     Male: Under 5 years
+        IG4E004:     Male: 5 to 9 years
+        IG4E005:     Male: 10 to 14 years
+        IG4E006:     Male: 15 to 17 years
+        IG4E007:     Male: 18 and 19 years
+        IG4E008:     Male: 20 years
+        IG4E009:     Male: 21 years
+        IG4E010:     Male: 22 to 24 years
+        IG4E011:     Male: 25 to 29 years
+        IG4E012:     Male: 30 to 34 years
+        IG4E013:     Male: 35 to 39 years
+        IG4E014:     Male: 40 to 44 years
+        IG4E015:     Male: 45 to 49 years
+        IG4E016:     Male: 50 to 54 years
+        IG4E017:     Male: 55 to 59 years
+        IG4E018:     Male: 60 and 61 years
+        IG4E019:     Male: 62 to 64 years
+        IG4E020:     Male: 65 and 66 years
+        IG4E021:     Male: 67 to 69 years
+        IG4E022:     Male: 70 to 74 years
+        IG4E023:     Male: 75 to 79 years
+        IG4E024:     Male: 80 to 84 years
+        IG4E025:     Male: 85 years and over
+        IG4E026:     Female
+        IG4E027:     Female: Under 5 years
+        IG4E028:     Female: 5 to 9 years
+        IG4E029:     Female: 10 to 14 years
+        IG4E030:     Female: 15 to 17 years
+        IG4E031:     Female: 18 and 19 years
+        IG4E032:     Female: 20 years
+        IG4E033:     Female: 21 years
+        IG4E034:     Female: 22 to 24 years
+        IG4E035:     Female: 25 to 29 years
+        IG4E036:     Female: 30 to 34 years
+        IG4E037:     Female: 35 to 39 years
+        IG4E038:     Female: 40 to 44 years
+        IG4E039:     Female: 45 to 49 years
+        IG4E040:     Female: 50 to 54 years
+        IG4E041:     Female: 55 to 59 years
+        IG4E042:     Female: 60 and 61 years
+        IG4E043:     Female: 62 to 64 years
+        IG4E044:     Female: 65 and 66 years
+        IG4E045:     Female: 67 to 69 years
+        IG4E046:     Female: 70 to 74 years
+        IG4E047:     Female: 75 to 79 years
+        IG4E048:     Female: 80 to 84 years
+        IG4E049:     Female: 85 years and over
+ 
+Breakdown/Data Type 2 (M):
+    Geographic Subarea: Total area (00)
+    Margins of error
+ 
+        NAME_M:      Area Name
+ 
+    Table 1:     Sex by Age
+    Universe:    Total population
+    Source code: B01001
+    NHGIS code:  IG4
+        IG4M001:     Total
+        IG4M002:     Male
+        IG4M003:     Male: Under 5 years
+        IG4M004:     Male: 5 to 9 years
+        IG4M005:     Male: 10 to 14 years
+        IG4M006:     Male: 15 to 17 years
+        IG4M007:     Male: 18 and 19 years
+        IG4M008:     Male: 20 years
+        IG4M009:     Male: 21 years
+        IG4M010:     Male: 22 to 24 years
+        IG4M011:     Male: 25 to 29 years
+        IG4M012:     Male: 30 to 34 years
+        IG4M013:     Male: 35 to 39 years
+        IG4M014:     Male: 40 to 44 years
+        IG4M015:     Male: 45 to 49 years
+        IG4M016:     Male: 50 to 54 years
+        IG4M017:     Male: 55 to 59 years
+        IG4M018:     Male: 60 and 61 years
+        IG4M019:     Male: 62 to 64 years
+        IG4M020:     Male: 65 and 66 years
+        IG4M021:     Male: 67 to 69 years
+        IG4M022:     Male: 70 to 74 years
+        IG4M023:     Male: 75 to 79 years
+        IG4M024:     Male: 80 to 84 years
+        IG4M025:     Male: 85 years and over
+        IG4M026:     Female
+        IG4M027:     Female: Under 5 years
+        IG4M028:     Female: 5 to 9 years
+        IG4M029:     Female: 10 to 14 years
+        IG4M030:     Female: 15 to 17 years
+        IG4M031:     Female: 18 and 19 years
+        IG4M032:     Female: 20 years
+        IG4M033:     Female: 21 years
+        IG4M034:     Female: 22 to 24 years
+        IG4M035:     Female: 25 to 29 years
+        IG4M036:     Female: 30 to 34 years
+        IG4M037:     Female: 35 to 39 years
+        IG4M038:     Female: 40 to 44 years
+        IG4M039:     Female: 45 to 49 years
+        IG4M040:     Female: 50 to 54 years
+        IG4M041:     Female: 55 to 59 years
+        IG4M042:     Female: 60 and 61 years
+        IG4M043:     Female: 62 to 64 years
+        IG4M044:     Female: 65 and 66 years
+        IG4M045:     Female: 67 to 69 years
+        IG4M046:     Female: 70 to 74 years
+        IG4M047:     Female: 75 to 79 years
+        IG4M048:     Female: 80 to 84 years
+        IG4M049:     Female: 85 years and over
+ 
+--------------------------------------------------------------------------------
+Citation and Use of NHGIS Data
+--------------------------------------------------------------------------------
+ 
+All persons are granted a limited license to use this documentation and the
+accompanying data, subject to the following conditions:
+
+* Publications and research reports employing NHGIS data (either tabular or GIS)
+  must cite it appropriately. The citation should include the following:
+
+    Minnesota Population Center. National Historical Geographic Information
+    System: Version 2.0. Minneapolis, MN: University of Minnesota 2011.
+
+* Publications and research reports employing school attendance areas data
+  (either tabular or GIS) must cite it appropriately. The citation should
+  include the following:
+
+    The College of William and Mary and the Minnesota Population Center.
+    School Attendance Boundary Information System (SABINS): Version 1.0.
+    Minneapolis, MN: University of Minnesota 2011.
+
+* If possible, citations should also include the URL for the NHGIS site:
+
+    https://www.nhgis.org/
+
+* If possible, citations involving school attendance areas should also include
+  the URL for the SABINS site:
+
+    http://www.sabinsdata.org/
+
+In addition, we request that users send us a copy of any publications, research
+reports, or educational material making use of the data or documentation.
+Printed matter should be sent to:
+
+    NHGIS
+    Minnesota Population Center
+    University of Minnesota
+    50 Willey Hall
+    225 19th Ave S
+    Minneapolis, MN 55455
+
+Send electronic material to: nhgis@umn.edu
